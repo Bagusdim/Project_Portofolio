@@ -1,0 +1,32 @@
+body {
+    background-image: url('abc.jpg');
+    background-size: 2560px 1600px;
+    background-position: center;
+    background-repeat: repeat;
+    width: 75%;
+    margin: auto;
+    border: solid 6px #000000;
+}
+.box{
+    width: 5px;
+    height: 3px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.btn{
+    margin: 20px 0px 0px 20px;
+    padding: 12px 20px;
+    background: linear-gradient(#03a9f4, #01579b);
+    background: -moz-linear-gradient(#03a9f4, #01579b);
+    background: -webkit-linear-gradient(#03a9f4, #01579b);
+    color: #FFFFFF;
+    float: left;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+}

@@ -1,0 +1,49 @@
+body {
+    background-image: url('abc.jpg');
+    background-size: 2560px 1600px;
+    background-position: center;
+    background-repeat: repeat;
+    width: 75%;
+    margin: auto;
+    border: solid 6px #000000;
+}
+.box{
+    width: 5px;
+    height: 3px;
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.nav{
+    margin: auto;
+    text-align: center;
+    font-family: fantasy;
+    width: 75%;
+    font-size: 20px;
+}
+.nav ul{
+    background: #7f8c8d;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    padding: 0 20px;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li:hover{
+    background: #16a085;
+
+}
+.nav ul li:hover a{
+    color: snow;
+}
+.nav ul li a{
+    display: block;
+    padding: 20px;
+    color: #bdc3c7;
+    text-decoration: none;
+}

@@ -1,0 +1,41 @@
+body {
+    background-image: url('abc.jpg');
+    background-size: 2560px 1600px;
+    background-position: center;
+    background-repeat: repeat;
+    width: 75%;
+    margin: auto;
+    border: solid 6px #000000;
+}
+.box{
+    width: 5px;
+    height: 3px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card{
+    width: 30%;
+    height: auto;
+    margin: 20px 0px 0px 20px;
+    background-color: #FFFFFF;
+    border: solid thin #DDDDDD;
+    box-shadow: 0 0 6px #999999;
+    float: left;
+}
+
+.card .card-title{
+    font-size: 30px;
+    font-weight: normal;
+    color: #FF6D00;
+}
+
+.card .card-content{
+    padding: 15px;
+    font-size: 14px;
+    line-height: 1.6;
+
+}

@@ -1,0 +1,400 @@
+*{
+	box-sizing: border-box;
+}
+
+.wrapper{
+	width:70%; 
+	margin:auto;
+}
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+section{
+	position: relative;
+	top: 50%;
+	left: 50%
+	transform: translate(-50%, -50%);
+	height: 50px;
+	width: 1200px;
+	display: flex;
+	color: #189CDE;
+	box-shadow: 0 10px 30px rgba(0,0,0.8);
+}
+.header1{
+	width: calc(30% + 30px);
+	height: 30%;
+	border-right: 100px solid #189CDE;
+	border-bottom: 50px solid transparent;
+	background:#Ff6300;
+
+}
+.header1 img{
+	height: 30px;
+	width: 30px;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+.header2{
+	width: calc(100% - 100px);
+	height: 100%;
+	background: #189CDE;
+	padding: 2% 5%;
+}
+form{
+	width: 800px;
+	margin:80px flex;
+}
+.pencarian{
+	
+	margin-left: 78%;
+}
+.search {
+	padding:5px 8px;
+	background:#FFFFFF;
+	border:0px solid #dbdbdb;
+}
+.button {
+	position:relative;
+	padding:3px 8px;
+	left:-8px;
+	border:2px solid #FFA500;
+	background-color:#FFA500;
+	color:#000000;
+		}
+.navigasi{
+	height: 50px;
+	width: 1200px;
+	background: #EFFFFF;
+}
+.navigasi2{
+	height: 300px;
+	width: 1200px;
+	background: #FFFFFF;
+}
+section .cover{
+	position: relative;
+	top: 50%;
+	left: 50%
+	transform: translate(-50%, -50%);
+	height: 50px;
+	width: 1200px;
+	display: flex;
+	color: #189CDE;
+	box-shadow: 0 10px 30px rgba(0,0,0.8);
+}
+
+nav {
+	width:950px;
+	height: 180px;
+	float:left;
+	background:#FFFFFF;
+	border: #000000 0px solid;
+	font-color: #000000;
+}
+
+nav ul {
+	list-style:none;
+	float:left;
+	margin:70px;
+	padding:7px;
+	font-size: 15px;
+	font-family: Castellar;
+	font-weight: bold;
+	position: relative;
+}
+
+nav ul li {
+	display:block;
+	padding:7px 10px 7px 10px;
+	float:left;
+	margin:0px;
+	border-right:#000000 0px solid;
+}
+.Navigasi-kanan nav ul li a{
+	color: #000000;
+}
+
+nav ul li .submenu {
+	display:none;
+}
+
+nav ul li:hover .submenu {
+	display:block;
+	margin:0px;
+	width:100px;
+	position:absolute;
+	margin-top:5px;
+	border:#000000 1px solid;
+	background:#DDDDDD;
+	margin-right:-11px;
+}
+
+nav ul li:hover .submenu li {
+	display:block;
+	width:89px;
+	float:left;
+	
+}
+
+nav ul li:hover {
+	background:#9ACD32;
+	cursor: pointer;
+}
+
+nav ul li a {
+	color:#F9F5F6;
+	text-decoration:none;
+}
+
+nav ul li a:hover {
+	text-decoration:none;
+}
+#slider{
+	width: 1200px;
+	height: 500px;
+	background:#213984;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.slide{
+	margin-top: 170px;
+	width:800px;
+	height:300px;
+	position:relative;
+	overflow:hidden;
+	float:left;
+	padding:3px;
+}
+
+.slide img{
+	display:none;
+	width:800px;
+	height:250px;
+	
+}
+
+.slide img.active{
+	display: inline-block;
+}
+
+.prev,.next{
+	float:left;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.prev{
+	margin-top: 10%;
+	position:relative;
+	margin-right:45px;
+	z-index:100;
+}
+
+.next{
+	position:relative;
+	margin-left:-45px;
+	z-index:100;
+}
+
+
+.cover-konten{
+	height: 1200px;
+	width: 1200px;
+	background: #EFFFFF;
+	display: flex;
+}
+.cover-kiri{
+	height: 1200px;
+	width: 850px;
+	background: transparent;
+	display: flex;
+	border: 1px solid #000000;
+}
+.cover-kanan{
+	height: 1200px;
+	width: 350px;
+	background: transparent;
+	display: flex;
+	border: 1px solid #FFFFFF;
+}
+.konten-kiri{
+	margin-top: 3%;
+	margin-left: 3%;
+}
+
+.konten-kiri img {
+	width: 300px;
+	height: 400px;
+	float: left;
+}
+.konten-kiri p{
+	font-family: arial;
+	font-size: 16px;
+	padding: 20px 10px;
+}
+
+
+
+.pagination{
+	display: inline-block;
+	float: right;
+}
+.pagination a{
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+	border: 1px solid #DDDDDD;
+	color: black;
+}
+.pagination a.active{
+	background-color: #4CAF50;
+	border: 1px solid #4CAF50;
+	color: white;
+}
+.pagination a:hover:not(.active){
+	background-color: #DDDDDD;
+}
+.pagination a:first-child{
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.widget li a{
+	font-family: Times new roman;
+	font-size: 18px;
+	color: #FFA500;
+	font-weight: bold;
+	text-decoration: none;
+}
+.widget li a:hover{
+	color: #000000;
+}
+.animasi{
+	transition: all 0.1s;
+	-webkit-trantition: all 0.1s;
+}
+.tombol-aktif{
+	padding: 8px 5px;
+	border-radius: 10px;
+	font-family: Copperplate Gothic Light;
+	font-size: 14px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.orange{
+	background-color: #FFA500;
+	border-bottom: 5px solid #FFA500;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+.orange a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 16px;
+}
+.tombol-aktif:active{
+	transform: translate(100px, 52px);
+	-webkit-transform: translate(0px, 5px);
+	border-bottom: 1px solid:;
+}
+.sosial-media img{
+	height: 50px;
+	width: 50px;
+	margin-left: 3%;
+}
+.footer{ 
+	float:left; 
+	background:#213984; 
+	width: 1200px;
+	height:320px; 
+	color:#FFFFFF;
+	display: flex;
+	font-size: 18px;
+}
+
+.footer #column{
+	width:1000px; 
+	padding:0px; 
+	float:left; 
+	font-size:14px;
+	margin-left: 3%;
+}
+.footer #column h1{ 
+	width: 300px;
+	margin:0px;
+	margin-bottom:10px; 
+	font-family:arial; 
+	font-size:20px; 
+	color:#FFFFFF; 
+	font-weight:bold;
+}
+.footer #column h2{ 
+	width: 400px;
+	margin:0px;
+	margin-bottom:10px; 
+	font-family: arial; 
+	font-size:18px; 
+	color:#FFFFFF; 
+	font-weight:bold;
+}
+.footer #column h3{ 
+	margin:0px;
+	margin-bottom:10px; 
+	font-family:arial; 
+	font-size:18px; 
+	color:#FFFFFF; 
+	font-weight:bold;
+}
+.footer #column h4{ 
+	width: 400px;
+	margin:0px;
+	margin-bottom:10px; 
+	font-family:arial; 
+	font-size:16px; 
+	color:#FFFFFF; 
+	font-weight:bold;
+}
+#menu li a:hover{
+	color: #FFA500;
+	font-weight: bold;
+}
+#menu li a{
+	text-decoration: none;
+	font-family: arial;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-right: 10%;
+}
+.footer2{
+	background:#08185A; 
+	width: 1200px;
+	height:55px; 
+	float: left;
+}
+.sosmed img{
+	height: 50px;
+	width: 50px;
+}
+.botom{
+	background: #F1592A; 
+	width: 1200px;
+	height:70px; 
+	float: left;
+}
+.Copyright h2{
+	font-family: calibri;
+	font-size: 24px;
+	color: #FFFFFF;
+	margin-bottom: 2%;
+}

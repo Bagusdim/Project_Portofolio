@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=tawon_madu
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ tawon_madu\ here.\r\n\ \r\n\ @Bagus\ Dimas\ Adam\ M\ \r\n\ @version\ (Selasa\ 24\ Maret\ 2020)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ tawon_madu\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=2

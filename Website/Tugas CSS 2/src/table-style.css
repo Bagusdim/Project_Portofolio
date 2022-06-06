@@ -1,0 +1,33 @@
+
+.box{
+    width: 5px;
+    height: 3px;
+}
+body {
+     background: #F5F5F5;
+      background-image: url('abc.jpg');
+         background-size: 2560px 1600px;
+         background-position: center;
+         background-repeat: repeat;
+         width: 75%;
+         margin: auto;
+         border: solid 6px #000000;
+}
+.container {
+    width: 80%
+    margin: 0%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th {
+    background: #EEEEEE;
+}
+td, th {
+    padding: 10px 5px;
+    border: solid thin #CCCCCC;
+}
+tr, td {
+    background: #FFFFFF;
+}
